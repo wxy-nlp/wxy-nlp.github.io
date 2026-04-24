@@ -16,6 +16,8 @@ Education
 
 Publications
 ======
+<sup>&#42;</sup> denotes first authorship; multiple starred authors indicate equal contribution.
+
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
