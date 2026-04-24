@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a fourth-year PhD student at [NJUNLP Lab](http://nlp.nju.edu.cn/homepage/), [Nanjing University](https://cs.nju.edu.cn/cs_en/), under the supervision of [Prof. Shujian Huang](http://nlp.nju.edu.cn/huangsj/). 
+I am a fifth-year PhD student at [NJUNLP Lab](http://nlp.nju.edu.cn/homepage/), [Nanjing University](https://cs.nju.edu.cn/cs_en/), under the supervision of [Prof. Shujian Huang](http://nlp.nju.edu.cn/huangsj/). 
 Currently, I an interning at AI Drug Discovery Team, ByteDance Research, mentored by senior research scientist [Zaixiang Zheng](https://zhengzx-nlp.github.io/).
 
 My research interest lies in generative AI in AI4Science (e.g., protein design) and natural language, and my research roadmap focuses on the generative modeling on protein data with diffusion models.
