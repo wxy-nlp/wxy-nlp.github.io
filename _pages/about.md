@@ -8,10 +8,10 @@ redirect_from:
 ---
 
 I am a fifth-year PhD student at [NJUNLP Lab](http://nlp.nju.edu.cn/homepage/), [Nanjing University](https://cs.nju.edu.cn/cs_en/), under the supervision of [Prof. Shujian Huang](http://nlp.nju.edu.cn/huangsj/). 
-Currently, I an interning at AI Drug Discovery Team, ByteDance Research, mentored by senior research scientist [Zaixiang Zheng](https://zhengzx-nlp.github.io/).
+Currently, I am interning at ByteDance Seed AI4Science Team, mentored by senior research scientist [Zaixiang Zheng](https://zhengzx-nlp.github.io/).
 
-My research interest lies in generative AI in AI4Science (e.g., protein design) and natural language, and my research roadmap focuses on the generative modeling on protein data with diffusion models.
-My representative work is the DPLM (Diffusion Protein Language Models) series. Homepage: [https://bytedance.github.io/dplm](https://bytedance.github.io/dplm).
+My research interests lie in generative AI for AI4Science and natural language, and my research roadmap spans 1) generative modeling of protein data with diffusion models and 2) diffusion LLMs.
+My representative work is the DPLM (Diffusion Protein Language Models) series, whose project homepage is [https://bytedance.github.io/dplm](https://bytedance.github.io/dplm).
 
 News
 ======
@@ -27,7 +27,7 @@ News
 
 [2021-09] I started my Ph.D. journey at Nanjing University.
 
-[2021-06] I received my bachelor's degree.
+[2021-06] I received my bachelor's degree from Nanjing University.
 
 Publications
 ======
@@ -37,28 +37,34 @@ Publications
    Cheng-Yen Hsieh<sup>&#42;</sup>, <strong>Xinyou Wang</strong><sup>&#42;</sup>, Daiheng Zhang, Dongyu Xue, Fei Ye, Shujian Huang, Zaixiang Zheng, and Quanquan Gu.  
    *ICML 2025 <strong>Spotlight</strong>.*  
    DPLM-2.1 identifies three core bottlenecks in structure modeling for multimodal protein language models: information loss caused by structure discretization, suboptimal index-based learning targets, and missing geometric modeling. It addresses them with better generative modeling, geometric modules, and representation learning, including residual diffusion, bitwise modeling, a hybrid flow-based sampler, and architectures that incorporate geometric priors. [[GitHub](https://github.com/bytedance/dplm)]
+   <br />**Keywords:** multimodal protein language models; structure tokenization; geometric representation learning; protein folding.
 
 1. **[DPLM-2: A Multimodal Diffusion Protein Language Model](https://arxiv.org/pdf/2410.13782)**  
    <strong>Xinyou Wang</strong><sup>&#42;</sup>, Zaixiang Zheng, Fei Ye, Dongyu Xue, Shujian Huang, and Quanquan Gu.  
    *ICLR 2025.*  
    DPLM-2 is a multimodal protein language model for joint sequence and structure modeling. It introduces a protein structure tokenizer that discretizes 3D atomic coordinates, enabling amino acid and structure tokens to be jointly modeled with discrete diffusion. This unlocks cross-modal protein generation for diverse protein design tasks and improves multimodal protein understanding. [[GitHub](https://github.com/bytedance/dplm)]
+   <br />**Keywords:** multimodal protein language models; discrete diffusion; structure tokenization; sequence-structure co-generation.
 
 1. **[ProteinBench: A Holistic Evaluation of Protein Foundation Models](https://arxiv.org/pdf/2409.06744)**  
    Fei Ye, Zaixiang Zheng, Dongyu Xue, Yuning Shen, Lihao Wang, Yiming Ma, Yan Wang, <strong>Xinyou Wang</strong>, Xiangxin Zhou, and Quanquan Gu.  
    *ICLR 2025.*  
    ProteinBench provides a unified benchmark for evaluating protein foundation models across diverse protein tasks and metrics. It reveals model strengths and limitations, enabling standardized comparison for protein design and understanding.
+   <br />**Keywords:** protein foundation models; holistic evaluation.
 
 1. **[Diffusion Language Models Are Versatile Protein Learners](https://arxiv.org/pdf/2402.18567)**  
    <strong>Xinyou Wang</strong><sup>&#42;</sup>, Zaixiang Zheng<sup>&#42;</sup>, Fei Ye, Dongyu Xue, Shujian Huang, and Quanquan Gu.  
    *ICML 2024.*  
    DPLM is a protein language model that unifies protein sequence generation and understanding. It uses discrete diffusion to provide a global receptive field, making it well suited for modeling 3D spatial dependencies among amino acids. DPLM achieves state-of-the-art protein sequence generation performance, outperforms Meta's ESM2 on protein understanding benchmarks, and shows scalable improvements from 150M to 650M and 3B parameters. [[GitHub](https://github.com/bytedance/dplm)]
+   <br />**Keywords:** diffusion protein language models; protein sequence generation; protein representation learning; controllable protein design.
 
 1. **[Helping the Weak Makes You Strong: Simple Multi-Task Learning Improves Non-Autoregressive Translators](https://arxiv.org/pdf/2211.06075)**  
    <strong>Xinyou Wang</strong><sup>&#42;</sup>, Zaixiang Zheng, and Shujian Huang.  
    *EMNLP 2022.*  
    A simple, model-agnostic multi-task training framework for non-autoregressive translation, where weak autoregressive decoders are used during training to force the NAR decoder to learn more informative representations. [[GitHub](https://github.com/wxy-nlp/MultiTaskNAT)]
+   <br />**Keywords:** non-autoregressive generation; neural machine translation; multi-task learning.
+{: .publication-list}
 
 Academic Services
 ======
-- Conference reviewer: ICLR, ICML, and NeurIPS (NIPS), 2025-now.
+- Conference reviewer: ACL/EMNLP, 2023-2024; ICLR, ICML, and NeurIPS (NIPS), 2025-now.
 - Teaching assistant: Advanced Programming.

@@ -56,35 +56,62 @@
       "publisher": "ICML",
       "releaseDate": "2025-07-13",
       "website": "https://arxiv.org/pdf/2504.11454",
-      "summary": "Cheng-Yen Hsieh<sup>&#42;</sup>, <strong>Xinyou Wang</strong><sup>&#42;</sup>, Daiheng Zhang, Dongyu Xue, Fei Ye, Shujian Huang, Zaixiang Zheng, and Quanquan Gu"
+      "summary": "Cheng-Yen Hsieh<sup>&#42;</sup>, <strong>Xinyou Wang</strong><sup>&#42;</sup>, Daiheng Zhang, Dongyu Xue, Fei Ye, Shujian Huang, Zaixiang Zheng, and Quanquan Gu",
+      "keywords": [
+        "multimodal protein language models",
+        "structure tokenization",
+        "geometric representation learning",
+        "protein folding"
+      ]
     },
     {
       "name": "DPLM-2: A Multimodal Diffusion Protein Language Model",
       "publisher": "ICLR",
       "releaseDate": "2025-04-24",
       "website": "https://arxiv.org/pdf/2410.13782",
-      "summary": "<strong>Xinyou Wang</strong><sup>&#42;</sup>, Zaixiang Zheng, Fei Ye, Dongyu Xue, Shujian Huang, and Quanquan Gu"
+      "summary": "<strong>Xinyou Wang</strong><sup>&#42;</sup>, Zaixiang Zheng, Fei Ye, Dongyu Xue, Shujian Huang, and Quanquan Gu",
+      "keywords": [
+        "multimodal protein language models",
+        "discrete diffusion",
+        "structure tokenization",
+        "sequence-structure co-generation"
+      ]
     },
     {
       "name": "ProteinBench: A Holistic Evaluation of Protein Foundation Models",
       "publisher": "ICLR",
       "releaseDate": "2025-04-24",
       "website": "https://arxiv.org/pdf/2409.06744",
-      "summary": "Fei Ye, Zaixiang Zheng, Dongyu Xue, Yuning Shen, Lihao Wang, Yiming Ma, Yan Wang, <strong>Xinyou Wang</strong>, Xiangxin Zhou, and Quanquan Gu"
+      "summary": "Fei Ye, Zaixiang Zheng, Dongyu Xue, Yuning Shen, Lihao Wang, Yiming Ma, Yan Wang, <strong>Xinyou Wang</strong>, Xiangxin Zhou, and Quanquan Gu",
+      "keywords": [
+        "protein foundation models",
+        "holistic evaluation"
+      ]
     },
     {
       "name": "Diffusion Language Models Are Versatile Protein Learners",
       "publisher": "ICML",
       "releaseDate": "2024-07-21",
       "website": "https://arxiv.org/pdf/2402.18567",
-      "summary": "<strong>Xinyou Wang</strong><sup>&#42;</sup>, Zaixiang Zheng<sup>&#42;</sup>, Fei Ye, Dongyu Xue, Shujian Huang, and Quanquan Gu"
+      "summary": "<strong>Xinyou Wang</strong><sup>&#42;</sup>, Zaixiang Zheng<sup>&#42;</sup>, Fei Ye, Dongyu Xue, Shujian Huang, and Quanquan Gu",
+      "keywords": [
+        "diffusion protein language models",
+        "protein sequence generation",
+        "protein representation learning",
+        "controllable protein design"
+      ]
     },
     {
       "name": "Helping the Weak Makes You Strong: Simple Multi-Task Learning Improves Non-Autoregressive Translators",
       "publisher": "EMNLP",
       "releaseDate": "2022-12-01",
       "website": "https://arxiv.org/pdf/2211.06075",
-      "summary": "<strong>Xinyou Wang</strong><sup>&#42;</sup>, Zaixiang Zheng, and Shujian Huang"
+      "summary": "<strong>Xinyou Wang</strong><sup>&#42;</sup>, Zaixiang Zheng, and Shujian Huang",
+      "keywords": [
+        "non-autoregressive generation",
+        "neural machine translation",
+        "multi-task learning"
+      ]
     }
   ],
   "presentations": [
@@ -99,7 +126,7 @@
   "teaching": [],
   "portfolio": [],
   "academicServices": [
-    "Conference reviewer: ICLR, ICML, and NeurIPS (NIPS), 2025-now",
+    "Conference reviewer: ACL/EMNLP, 2023-2024; ICLR, ICML, and NeurIPS (NIPS), 2025-now",
     "Teaching assistant: Advanced Programming"
   ]
 }

@@ -7,6 +7,7 @@ excerpt: '<strong>Xinyou Wang</strong><sup>&#42;</sup>, Zaixiang Zheng<sup>&#42;
 date: 2024-07-21
 venue: 'ICML'
 paperurl: 'https://arxiv.org/pdf/2402.18567'
+keywords: ["diffusion protein language models", "protein sequence generation", "protein representation learning", "controllable protein design"]
 citation: '<strong>Xinyou Wang</strong><sup>&#42;</sup>, Zaixiang Zheng<sup>&#42;</sup>, Fei Ye, Dongyu Xue, Shujian Huang, and Quanquan Gu. (2024). &quot;Diffusion Language Models Are Versatile Protein Learners.&quot; <i>Proceedings of the 41st International Conference on Machine Learning</i>, 52309-52333.'
 ---
 

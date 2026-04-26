@@ -7,6 +7,7 @@ excerpt: 'Fei Ye, Zaixiang Zheng, Dongyu Xue, Yuning Shen, Lihao Wang, Yiming Ma
 date: 2025-04-24
 venue: 'ICLR'
 paperurl: 'https://arxiv.org/pdf/2409.06744'
+keywords: ["protein foundation models", "holistic evaluation"]
 citation: 'Fei Ye, Zaixiang Zheng, Dongyu Xue, Yuning Shen, Lihao Wang, Yiming Ma, Yan Wang, <strong>Xinyou Wang</strong>, Xiangxin Zhou, and Quanquan Gu. (2025). &quot;ProteinBench: A Holistic Evaluation of Protein Foundation Models.&quot; <i>International Conference on Learning Representations</i>.'
 ---
 

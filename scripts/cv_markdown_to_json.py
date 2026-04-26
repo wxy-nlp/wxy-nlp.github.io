@@ -270,7 +270,8 @@ def parse_publications(pub_dir):
                 "publisher": front_matter.get('venue', ''),
                 "releaseDate": front_matter.get('date', ''),
                 "website": front_matter.get('paperurl', ''),
-                "summary": front_matter.get('excerpt', '')
+                "summary": front_matter.get('excerpt', ''),
+                "keywords": front_matter.get('keywords', [])
             }
             
             publications.append(pub_entry)

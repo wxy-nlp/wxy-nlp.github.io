@@ -100,6 +100,28 @@
     font-size: $type-size-6;
   }
 
+  .publication-list {
+    margin-left: 0;
+    padding-left: 0;
+    list-style: none;
+    counter-reset: publication-item;
+
+    > li {
+      margin-bottom: $indent-var;
+      padding-left: 0;
+      counter-increment: publication-item;
+
+      &::before {
+        content: counter(publication-item) ". ";
+        font-weight: bold;
+      }
+
+      > p {
+        display: inline;
+      }
+    }
+  }
+
   /* blockquote citations */
   blockquote + .small {
     margin-top: -1.5em;

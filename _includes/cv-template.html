@@ -147,6 +147,9 @@
           {% if publication.summary %}
           <div class="cv-item-detail">{{ publication.summary }}</div>
           {% endif %}
+          {% if publication.keywords.size > 0 %}
+          <div class="cv-item-detail"><strong>Keywords:</strong> {{ publication.keywords | join: ", " }}</div>
+          {% endif %}
           {% if publication.website %}
           <div class="cv-item-detail">
             <a href="{{ publication.website }}" target="_blank">View Publication</a>

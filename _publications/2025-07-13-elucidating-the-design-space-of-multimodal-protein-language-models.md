@@ -7,6 +7,7 @@ excerpt: 'Cheng-Yen Hsieh<sup>&#42;</sup>, <strong>Xinyou Wang</strong><sup>&#42
 date: 2025-07-13
 venue: 'ICML'
 paperurl: 'https://arxiv.org/pdf/2504.11454'
+keywords: ["multimodal protein language models", "structure tokenization", "geometric representation learning", "protein folding"]
 citation: 'Cheng-Yen Hsieh<sup>&#42;</sup>, <strong>Xinyou Wang</strong><sup>&#42;</sup>, Daiheng Zhang, Dongyu Xue, Fei Ye, Shujian Huang, Zaixiang Zheng, and Quanquan Gu. (2025). &quot;Elucidating the Design Space of Multimodal Protein Language Models.&quot; <i>Proceedings of the 42nd International Conference on Machine Learning</i>, 24156-24175.'
 ---
 

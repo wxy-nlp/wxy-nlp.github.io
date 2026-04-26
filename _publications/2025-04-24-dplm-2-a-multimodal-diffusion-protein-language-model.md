@@ -7,6 +7,7 @@ excerpt: '<strong>Xinyou Wang</strong><sup>&#42;</sup>, Zaixiang Zheng, Fei Ye, 
 date: 2025-04-24
 venue: 'ICLR'
 paperurl: 'https://arxiv.org/pdf/2410.13782'
+keywords: ["multimodal protein language models", "discrete diffusion", "structure tokenization", "sequence-structure co-generation"]
 citation: '<strong>Xinyou Wang</strong><sup>&#42;</sup>, Zaixiang Zheng, Fei Ye, Dongyu Xue, Shujian Huang, and Quanquan Gu. (2025). &quot;DPLM-2: A Multimodal Diffusion Protein Language Model.&quot; <i>International Conference on Learning Representations</i>.'
 ---
 
