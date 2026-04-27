@@ -33,9 +33,9 @@ Publications
 ======
 <sup>&#42;</sup> denotes first authorship; multiple starred authors indicate equal contribution.
 
-1. **[Elucidating the Design Space of Multimodal Protein Language Models](https://arxiv.org/pdf/2504.11454)**  
-   Cheng-Yen Hsieh<sup>&#42;</sup>, <strong>Xinyou Wang</strong><sup>&#42;</sup>, Daiheng Zhang, Dongyu Xue, Fei Ye, Shujian Huang, Zaixiang Zheng, and Quanquan Gu.  
-   *ICML 2025 <strong>Spotlight</strong>.*  
+1. **[Elucidating the Design Space of Multimodal Protein Language Models](https://arxiv.org/pdf/2504.11454)**<br />
+   <strong>Xinyou Wang</strong><sup>&#42;</sup>, Cheng-Yen Hsieh<sup>&#42;</sup>, Daiheng Zhang, Dongyu Xue, Fei Ye, Shujian Huang, Zaixiang Zheng, and Quanquan Gu.<br />
+   *ICML 2025 <strong>Spotlight</strong>.*<br />
    DPLM-2.1 identifies three core bottlenecks in structure modeling for multimodal protein language models: information loss caused by structure discretization, suboptimal index-based learning targets, and missing geometric modeling. It addresses them with better generative modeling, geometric modules, and representation learning, including residual diffusion, bitwise modeling, a hybrid flow-based sampler, and architectures that incorporate geometric priors. [[GitHub](https://github.com/bytedance/dplm)]
    <br />**Keywords:** multimodal protein language models; structure tokenization; geometric representation learning; protein folding.
 
