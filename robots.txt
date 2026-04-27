@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://wxy-nlp.github.io/sitemap_index.xml
+Sitemap: https://wxy-nlp.github.io/sitemap.xml
