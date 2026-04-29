@@ -66,5 +66,5 @@ Publications
 
 Academic Services
 ======
-- Conference reviewer: ACL/EMNLP, 2023-2024; ICLR, ICML, and NeurIPS (NIPS), 2025-now.
+- Conference reviewer: ACL/EMNLP, 2023-2024; ICLR, ICML, and NIPS, 2025-now.
 - Teaching assistant: Advanced Programming.
