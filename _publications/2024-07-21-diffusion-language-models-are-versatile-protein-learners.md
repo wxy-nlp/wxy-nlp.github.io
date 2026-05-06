@@ -11,6 +11,6 @@ keywords: ["diffusion protein language models", "protein sequence generation", "
 citation: '<strong>Xinyou Wang</strong><sup>&#42;</sup>, Zaixiang Zheng<sup>&#42;</sup>, Fei Ye, Dongyu Xue, Shujian Huang, and Quanquan Gu. (2024). &quot;Diffusion Language Models Are Versatile Protein Learners.&quot; <i>Proceedings of the 41st International Conference on Machine Learning</i>, 52309-52333.'
 ---
 
-DPLM is a protein language model that unifies protein sequence generation and understanding. It uses discrete diffusion to provide a global receptive field, making it well suited for modeling 3D spatial dependencies among amino acids. DPLM achieves state-of-the-art protein sequence generation performance and outperforms Meta's ESM2 on protein understanding benchmarks. Models at 150M, 650M, and 3B parameters further demonstrate scalable performance improvements.
+DPLM is a protein language model that unifies generation and understanding. It uses discrete diffusion to provide a global receptive field, making it well suited for modeling 3D spatial dependencies among amino acids. After generative pre-training on ~45M protein sequences, DPLM achieves SOTA protein sequence generation performance, outperforms ESM2 on protein understanding benchmarks, supports conditional/classifier-guided generation, and scales effectively from 150M to 650M and 3B parameters.
 
 Code: [https://github.com/bytedance/dplm](https://github.com/bytedance/dplm)

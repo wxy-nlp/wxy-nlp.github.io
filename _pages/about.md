@@ -15,6 +15,8 @@ My representative work is the DPLM (Diffusion Protein Language Models) series, w
 
 News
 ======
+[2026-05] Our work "[Towards A Generative Protein Evolution Machine with DPLM-Evo](/publication/2026-05-01-towards-a-generative-protein-evolution-machine-with-dplm-evo)" was accepted to ICML 2026.
+
 [2025-05] Our work "[Elucidating the Design Space of Multimodal Protein Language Models](/publication/2025-07-13-elucidating-the-design-space-of-multimodal-protein-language-models)" was accepted to ICML 2025 as a <strong>Spotlight</strong> paper. See you in Vancouver!
 
 [2025-02] Our works "[DPLM-2: A Multimodal Diffusion Protein Language Model](/publication/2025-04-24-dplm-2-a-multimodal-diffusion-protein-language-model)" and "[ProteinBench: A Holistic Evaluation of Protein Foundation Models](/publication/2025-04-24-proteinbench-a-holistic-evaluation-of-protein-foundation-models)" were accepted to ICLR 2025. See you in Singapore!
@@ -32,6 +34,12 @@ News
 Publications
 ======
 <sup>&#42;</sup> denotes first authorship; multiple starred authors indicate equal contribution.
+
+1. **[Towards A Generative Protein Evolution Machine with DPLM-Evo](https://arxiv.org/pdf/2605.00182)**<br />
+   <strong>Xinyou Wang</strong><sup>&#42;</sup>, Liang Hong, Jiasheng Ye, Zaixiang Zheng, Yu Li, Shujian Huang, and Quanquan Gu.<br />
+   *ICML 2026.*<br />
+   DPLM-Evo is an edit-based discrete diffusion protein language model that supports substitutions, insertions, and deletions. It introduces an upsampled latent alignment space for variable-length ins/del modeling, and uses a contextualized noising kernel to learn biologically plausible substitution patterns. DPLM-Evo achieves SOTA single-sequence mutation effect prediction on ProteinGym, while enabling variable-length generation and post-editing of existing proteins.
+   <br />**Keywords:** edit-based discrete diffusion models; contextualized noising kernel; variable-length modeling; latent alignment; mutation effect prediction.
 
 1. **[Elucidating the Design Space of Multimodal Protein Language Models](https://arxiv.org/pdf/2504.11454)**<br />
    <strong>Xinyou Wang</strong><sup>&#42;</sup>, Cheng-Yen Hsieh<sup>&#42;</sup>, Daiheng Zhang, Dongyu Xue, Fei Ye, Shujian Huang, Zaixiang Zheng, and Quanquan Gu.<br />
@@ -54,7 +62,7 @@ Publications
 1. **[Diffusion Language Models Are Versatile Protein Learners](https://arxiv.org/pdf/2402.18567)**  
    <strong>Xinyou Wang</strong><sup>&#42;</sup>, Zaixiang Zheng<sup>&#42;</sup>, Fei Ye, Dongyu Xue, Shujian Huang, and Quanquan Gu.  
    *ICML 2024.*  
-   DPLM is a protein language model that unifies protein sequence generation and understanding. It uses discrete diffusion to provide a global receptive field, making it well suited for modeling 3D spatial dependencies among amino acids. DPLM achieves state-of-the-art protein sequence generation performance, outperforms Meta's ESM2 on protein understanding benchmarks, and shows scalable improvements from 150M to 650M and 3B parameters. [[GitHub](https://github.com/bytedance/dplm)]
+   DPLM is a protein language model that unifies generation and understanding. It uses discrete diffusion to provide a global receptive field, making it well suited for modeling 3D spatial dependencies among amino acids. After generative pre-training on ~45M protein sequences, DPLM achieves SOTA protein sequence generation performance, outperforms ESM2 on protein understanding benchmarks, supports conditional/classifier-guided generation, and scales effectively from 150M to 650M and 3B parameters. [[GitHub](https://github.com/bytedance/dplm)]
    <br />**Keywords:** diffusion protein language models; protein sequence generation; protein representation learning; controllable protein design.
 
 1. **[Helping the Weak Makes You Strong: Simple Multi-Task Learning Improves Non-Autoregressive Translators](https://arxiv.org/pdf/2211.06075)**  
