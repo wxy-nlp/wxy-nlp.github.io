@@ -36,7 +36,7 @@ Publications
 <sup>&#42;</sup> denotes first authorship; multiple starred authors indicate equal contribution.
 
 1. **[Towards A Generative Protein Evolution Machine with DPLM-Evo](https://arxiv.org/pdf/2605.00182)**<br />
-   <strong>Xinyou Wang</strong><sup>&#42;</sup>, Liang Hong, Jiasheng Ye, Zaixiang Zheng, Yu Li, Shujian Huang, and Quanquan Gu.<br />
+   <strong>Xinyou Wang</strong><sup>&#42;</sup>, Liang Hong<sup>&#42;</sup>, Jiasheng Ye, Zaixiang Zheng, Yu Li, Shujian Huang, and Quanquan Gu.<br />
    *ICML 2026.*<br />
    DPLM-Evo is an edit-based discrete diffusion protein language model that supports substitutions, insertions, and deletions. It introduces an upsampled latent alignment space for variable-length ins/del modeling, and uses a contextualized noising kernel to learn biologically plausible substitution patterns. DPLM-Evo achieves SOTA single-sequence mutation effect prediction on ProteinGym, while enabling variable-length generation and post-editing of existing proteins.
    <br />**Keywords:** edit-based discrete diffusion models; contextualized noising kernel; variable-length modeling; latent alignment; mutation effect prediction.
